@@ -1,4 +1,4 @@
-import express, { NextFunction, Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 
 export const succes = (req: Request, res: Response, message = '', status = 200) => {
     res.status(status).send({
